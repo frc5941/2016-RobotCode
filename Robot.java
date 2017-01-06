@@ -82,8 +82,8 @@ DoubleSolenoid sol = new DoubleSolenoid(1, 0);
      */
     public void teleopPeriodic() {
     	
-			// chassis.arcadeDrive(solo); //<---- If the code for tank driving
-												// doesn't work
+			// chassis.arcadeDrive(solo); //<---- If the code for tank driving doesn't work
+												
 			leftYAxis = xbox.getRawAxis(1);
 			rightYAxis = xbox.getRawAxis(5);
 			//chassis.tankDrive(leftYAxis, rightYAxis);
